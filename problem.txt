@@ -1,0 +1,29 @@
+Course Management system
+
+Objective -
+Create APIs for an online course portal where users can create, update, search
+courses using rest api.
+
+Application Overview -
+● Users should be able to use api to create a course, update a course, delete a
+course
+
+Create APIs to
+● Create a course (with name, description, and more if required)
+● List all courses (user)
+● View course information like name and description(user)
+● Delete a course.
+Note: Create APIs only; frontend is not required.
+
+What technologies/frameworks/libraries to use?
+● You can use any of the following frameworks, FastAPI, Django, Flask.
+● Any DB will work.
+
+What is the assignment evaluation process?
+The submitted assignment is evaluated on -
+● Using the right technologies and frameworks
+● Covering all the use cases and developing all the APIs
+● Non-redundant database/model structure
+● Efficiency
+● Modularity
+● Naming conventions
