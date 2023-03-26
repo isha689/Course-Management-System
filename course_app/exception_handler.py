@@ -10,8 +10,8 @@ def api_exception_handler(exc, context):
 
     if response:
         return response
-    elif isinstance(exc, IntegrityError):
-        data = {'detail': str(exc)}
+    elif isinstance(exc, (IntegrityError, KeyError)):
+        data = {'detail': str(exc) + ". Input data is Not Valid"}
         return Response(data, status=status.HTTP_422_UNPROCESSABLE_ENTITY)
     elif isinstance(exc, ObjectDoesNotExist):
         data = {'detail': str(exc)}

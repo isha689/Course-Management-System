@@ -10,7 +10,7 @@ from django.core.exceptions import ObjectDoesNotExist
 def api_overview(request):
     api_urls = {
         'List all Courses': '/list',
-        'Search courses by title': '/list?title=A',
+        'Search courses by name': '/list?name=A',
         'Search courses by course ID': '/list?id=1',
         'Create a Course': '/create',
         'Update a Course': '/update/{courseID}',
